@@ -1,0 +1,194 @@
+body{
+    background-color:#fff8dd;
+    font-family:lato;
+}
+header{
+    padding:30px 60px;
+}
+header .log_txt h4{
+    padding: 6px 15px;
+    float: right;
+    margin-right: 225px;
+    background-image: linear-gradient(
+45deg, yellow, #db4d4d);
+    border-radius: 25px;
+    font-size: 12px;
+    color: white;
+   
+}
+header .nav{
+    display:inline-flex;
+    
+}
+header .nav li{
+    padding: 8px 15px;
+    
+    
+}
+header .nav li a {
+    text-decoration:none;
+   
+    font-size:16px;
+    color:#855e5e;
+}
+header .nav_aside{
+    display:inline-flex;
+}
+
+header .nav_aside a{
+    text-decoration:none;
+   
+    font-size:16px;
+    color:#855e5e;
+    padding:8px 15px;
+    
+
+}
+header .nav_aside p{
+    padding:10px 15px;
+    color:#fff;
+    background-color:#5c80e5;
+    border-radius:4px;
+    cursor:pointer;
+}
+section{
+    position:relative;
+    padding:50px 0px;
+    margin-bottom:150px;
+    
+}
+section .sec_head h2{
+    font-size:50px;
+    padding-top:40px;
+    line-height:50px;
+    font-weight: 800px;
+    padding-bottom:10px;
+    font-family:'playfair+display';
+
+} 
+section .sec_para p{
+    line-height:20px;
+    font-weight:300;
+    font-size:14px;
+    color:#855e5e;
+    padding-bottom:10px;
+}
+section form{
+    padding-bottom:12px;
+}
+section input{
+    border: 0px;
+    padding:10px;
+    margin-right:15px;
+    border-radius:4px;
+}
+section button{
+    border:0px;
+    padding:10px 15px;
+    color:white;
+    background-color:#5c80e5;
+    cursor:pointer;
+    border-radius:4px;
+}
+section .sec_no i{
+    color:#98e398;
+
+}
+section .sec_no p{
+    font-size:14px;
+    font-weight:300;
+    float:right;
+    color:#855e5e;
+    margin-right:455px;
+}
+section .spi_img{
+    position:relative;
+   
+}
+
+section .spi_img img{
+    max-width:100%;
+    height:auto;
+    
+   
+}
+
+
+section .spi_img .img_avt1 img{
+    transform: rotate(
+        -39deg);
+            z-index: 1;
+            position: absolute;
+    
+}
+section .spi_img .img_avt2 img{
+    position: absolute;
+    z-index: 2;
+    top: -1px;
+    transform: rotate( 
+-24deg);
+    left: 4px;
+    
+}
+section .spi_img .img_avt3 img{
+    position: absolute;
+    z-index: 2;
+    top: 6px;
+    transform: rotate( 
+-8deg);
+    left: 14px;
+}
+    
+
+section .spi_img .img_avt4 img{
+    position: absolute;
+    z-index: 4;
+    top: 11px;
+    width: 387px;
+    height: 443px;
+    transform: rotate( 
+9deg);
+    left: 17px;
+}
+footer{
+    position:relative;
+    padding-bottom:30px;
+}
+footer ul.nav {
+    margin-top:10px;
+    display:flex;
+
+
+}
+footer .nav li{
+    padding-right:15px;
+}
+footer .nav li a{
+    text-decoration:none;
+    font-size:16px;
+    color:#855e5e;
+}
+footer .foo_help{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+footer img{
+    max-width:100%;
+    height:auto;
+    padding-right:14px;
+}
+footer p{
+    margin-top: 3px;
+    font-family:'playfair+display';
+    line-height: 16px;
+    font-size: 14px;
+}
+
+footer p span a{
+    text-decoration: none;
+    color:black;
+    font-weight:700;
+    font-size:12px;
+}
